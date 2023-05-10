@@ -1,0 +1,16 @@
+#include<iostream>
+#include <bits/stdc++.h>
+using namespace std;
+#define FAST_IO ios::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
+
+int main(){
+    FAST_IO;
+    int n, t=0;
+    unordered_map <string, int> r = {{"Tetrahedron",4}, {"Cube",6}, {"Octahedron",8}, {"Dodecahedron",12}, {"Icosahedron",20}};
+    cin>>n;
+    while(n--){
+        string s; cin>>s;
+        t+=r[s];
+    }
+    cout<<t;
+}
