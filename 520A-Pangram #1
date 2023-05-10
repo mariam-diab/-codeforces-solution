@@ -25,3 +25,8 @@ int main(){
 
 
 }
+
+//The time complexity of this code is O(n), 
+//where n is the length of the input string since we only iterate once over the string to count the frequency of each character. 
+//The space complexity is O(26) = O(1) since we are using a fixed-size vector of size 26 to store the frequency of each character.
+//This solution may be faster than the second soultion because it only involves iterating through the string once.
