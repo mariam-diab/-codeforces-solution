@@ -16,3 +16,8 @@ int main(){
 
 
 }
+
+// The time complexity of this code is O(n log n), 
+//where n is the length of the input string, because inserting an element into a set takes O(log n) time, and we do this operation n times. 
+//The space complexity of this code is O(k), where k is the number of distinct characters in the input string.
+//This solution may be slower than the first soultion due to the overhead of maintaining a balanced binary search tree for the set. 
